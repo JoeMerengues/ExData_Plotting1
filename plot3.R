@@ -6,8 +6,8 @@ if( file.exists("power_consumption.zip")) {
   unlink("power_consumption.zip")
 } 
 #Borramos la imagen si existe 
-if ( file.exists("plot1.png"))
-  unlink("plot1.png")
+if ( file.exists("plot3.png"))
+  unlink("plot3.png")
 
 print("Descargando el archivo")
 download.file(url, destfile = "power_consumption.zip", method = "curl")
